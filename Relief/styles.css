@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 43px;
+}
+h3 {
+    text-align: center;
+}
+.collapsible {
+    background-color: rgb(46, 40, 40);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.active, .collapsible:hover {
+    background-color: #555;
+}
+.collapsible:after {
+    content: '\02795';
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+footer {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 5px;
+}
